@@ -8,9 +8,11 @@ https://uchakravartyind-glitch.github.io/shipyard/
 
 ## Lighthouse
 
-Mobile Performance: **pending final deployed measurement**
+Mobile Performance: **100**
 
-The final report is measured against the production GitHub Pages build, never the development server.
+Measured with Lighthouse Mobile against the production GitHub Pages build. The report showed 1.1 s LCP, 0 CLS, and 50 ms Total Blocking Time. The remaining minor opportunities were cache lifetimes, render-blocking requests, and legacy JavaScript.
+
+![Lighthouse Mobile Performance score of 100](docs/lighthouse-mobile.png)
 
 ## Run locally
 
